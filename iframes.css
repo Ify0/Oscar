@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+#banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 0;
+	height: 120px;
+	width: 100%;
+}
+#menu {  
+	position:fixed;
+	top: 15px;
+	left: 0;
+	height: 100%;
+	width: 20%;
+	border: 1px solid gray;
+}
+#welcome {
+	position: relative;
+	top:85px;
+	left:0;
+	left: calc(20% + 1px);
+	border: 0;
+	height: calc(100% - 15px);
+	height:100%;
+	width: 100%;
